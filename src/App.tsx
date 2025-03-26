@@ -6,6 +6,7 @@ import About from './pages/About';
 import ProApps from './pages/ProApps';
 import Contact from './pages/Contact';
 import { AnimatedBackground } from './components/background/AnimatedBackground';
+import VoiceCloneAI from './pages/voice-clone-ai.tsx';  // Update the extension
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/pro-apps" element={<ProApps />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/voice-clone-ai" element={<VoiceCloneAI />} />
         </Routes>
       </div>
     </Router>
